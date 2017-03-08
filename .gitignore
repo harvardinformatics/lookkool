@@ -33,3 +33,12 @@
 *.su
 
 autom4te.cache*
+*.pyc
+config.log
+config.status
+libtool
+src/.deps*
+src/.libs*
+Makefile
+src/Makefile
+

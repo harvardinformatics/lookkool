@@ -8,7 +8,14 @@ All rights reserved.
 '''
 
 import os
-from setuptools import setup, find_packages
+from setuptools import setup, Extension
+
+lookkoolso = Extension(
+    'liblookkool',
+    sources = [
+        'src/lookkool.c',
+    ]
+)
 
 setup(
     name = "lookkool",
@@ -24,4 +31,5 @@ setup(
         "Development Status :: 3 - Alpha",
         "Topic :: Utilities",
     ],
+    ext_modules = [lookkoolso],
 )

@@ -39,6 +39,6 @@ config.status
 libtool
 src/.deps*
 src/.libs*
-Makefile
-src/Makefile
-
+build*
+dist*
+lookkool.egg*

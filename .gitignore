@@ -42,3 +42,5 @@ src/.libs*
 build*
 dist*
 lookkool.egg*
+Makefile
+src/Makefile

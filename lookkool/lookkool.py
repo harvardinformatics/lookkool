@@ -11,8 +11,10 @@ created on March 7, 2017
 '''
 
 from ctypes import c_char_p, c_int, cdll, pointer
+import os 
 
-lookkool = cdll.LoadLibrary('liblookkool.so')
+libpath = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'liblookkool.so')
+lookkool = cdll.LoadLibrary(libpath)
 
 
 def findPalindromes(contig):

@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "lookkool.h"
-#include <stdatomic.h>
 
 /*
  * Returns the start and end of palindromes in the given sequences.
